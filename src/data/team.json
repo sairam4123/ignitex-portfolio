@@ -1,0 +1,40 @@
+[
+    {
+        "id": "lead",
+        "name": "Sri Abirami R",
+        "role": "Team Leader",
+        "image": "/people/1.png"
+    },
+    {
+        "id": "secretary",
+        "name": "Periyasamy K",
+        "role": "Secretary",
+        "image": "/people/2.png"
+    },
+    {
+        "id": "event-lead",
+        "name": "Ragul R G",
+        "role": "Event Lead",
+        "image": "/people/3.png"
+    }, {
+        "id": "art-lead",
+        "name": "Adhithiyan M",
+        "role": "Art Lead",
+        "image": "/people/4.png"
+    }, {
+        "id": "finance-officer",
+        "name": "Dhushyanth Ajay S",
+        "role": "Finance Officer",
+        "image": "/people/5.png"
+    }, {
+        "id": "tech-lead",
+        "name": "Sairam M",
+        "role": "Tech Lead",
+        "image": "/people/6.png"
+    }, {
+        "id": "log-lead",
+        "name": "Paramesh T",
+        "role": "Log Lead",
+        "image": "/people/7.png"
+    }
+]
