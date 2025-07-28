@@ -12,7 +12,7 @@ export default function SideBar() {
         {/* Sidebar button */}
         <button onClick={() => {
             setSideBarIsOpen(!sideBarIsOpen);
-        }} className="flex flex-row items-center justify-center ml-auto">
+        }} className="flex lg:hidden flex-row items-center justify-center ml-auto">
             <Menu className="w-6 h-6 text-gray-700" />
         </button>
 
