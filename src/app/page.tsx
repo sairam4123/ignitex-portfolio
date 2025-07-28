@@ -44,7 +44,7 @@ export default function Home() {
   );
 }
 
-export function TeamMemberCard({
+function TeamMemberCard({
   name,
   role,
   imageSrc,
