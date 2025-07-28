@@ -4,6 +4,26 @@ import teamData from "../data/team.json"; // Assuming you have a JSON file with 
 export default function Home() {
   return (
     <div className="flex flex-col p-2 gap-4">
+      <div className="p-4">
+
+      <div className="flex flex-col p-4 rounded-lg items-center shadow-md gap-2 bg-white">
+        <Image
+          src="/logo.png"
+          alt="IGNITEX Logo"
+          width={150}
+          height={150}
+          className="rounded-full "
+          />
+        <p className="max-w-2xl text-3xl text-center text-balance">
+          Where Real Entrepreneurs Begin Their <span className="font-bold">Journey.</span>
+        </p>
+        <p className="max-w-2xl text-center text-balance text-gray-600 mt-2">
+          We are a dynamic team dedicated to executing impactful events, driving
+          innovation, and maintaining seamless coordination across all fronts.
+        </p>
+      </div>
+      </div>
+
       <div className="flex flex-col lg:flex-row p-4 gap-4">
         <div className="flex flex-col p-4 rounded-lg shadow-md gap-2 bg-white">
           <h1 className="text-3xl font-bold">About Us</h1>
