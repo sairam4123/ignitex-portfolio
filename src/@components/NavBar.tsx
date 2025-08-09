@@ -8,7 +8,7 @@ export default function NavBar() {
                 <Image src="/logo.png" alt="Logo" width={50} height={50} />
                     <a href="#home">IGNITEX</a>
                 </li>
-                <ul className='hidden lg:flex flex-row items-center gap-4 ml-auto'>
+                <ul className='hidden md:flex flex-row items-center gap-4 ml-auto'>
                 <li className=''><a href="#about">About Us</a></li>
                 <li className=''><a href="#services">Meet the Team</a></li>
                 <li className=''><a href="#contact">Contact</a></li>

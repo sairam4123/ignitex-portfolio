@@ -12,7 +12,7 @@ export default function SideBar() {
         {/* Sidebar button */}
         <button onClick={() => {
             setSideBarIsOpen(!sideBarIsOpen);
-        }} className="flex lg:hidden flex-row items-center justify-center ml-auto">
+        }} className="flex md:hidden flex-row items-center justify-center ml-auto">
             <Menu className="w-6 h-6 text-gray-700" />
         </button>
 
@@ -23,7 +23,7 @@ export default function SideBar() {
                     initial={{ y: "100%" }}
                     animate={{ y: 0 }}
                     exit={{ y: "100%" }}
-                    transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                    transition={{ ease: "easeIn", duration: 0.25 }}
                     className="h-screen w-screen fixed top-0 left-0 bg-white z-50 flex flex-col p-4"
                 >
                     <button
