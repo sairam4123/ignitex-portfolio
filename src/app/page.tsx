@@ -24,7 +24,7 @@ export default function Home() {
           className="rounded-lg w-full h-auto shadow-lg flex md:hidden"
         />
         <a href="https://form.jotform.com/252189146557062" className="absolute bottom-4 right-4 bg-amber-600 p-2 rounded-lg shadow-md flex flex-row gap-2 items-center justify-center cursor-pointer hover:bg-amber-500 text-white">
-         <Link /> Bring me there
+         <Link /> Join now
         </a>
       </div>
 
