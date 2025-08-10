@@ -30,10 +30,10 @@ export default function Home() {
 
       <div className="flex md:flex-row md:justify-end flex-col p-4 rounded-lg items-center shadow-md gap-2 bg-white">
         <Image
-          src="/logo.png"
+          src="/logo2.jpg"
           alt="IGNITEX Logo"
-          width={1000}
-          height={1000}
+          width={200}
+          height={200}
           className="rounded-full mr-auto w-1/2 h-auto md:h-4/5 md:w-auto"
         />
         <p className="max-w-2xs text-2xl text-center md:text-left text-balance">
