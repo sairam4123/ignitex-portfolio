@@ -5,8 +5,8 @@ export default function NavBar() {
         <nav className='flex flex-row items-center gap-2 h-16 px-4 bg-stone-50 text-black'>
             <ul className="flex flex-row items-center font-bold gap-4 w-full">
                 <li className='flex flex-row font-black items-center gap-2'>
-                <Image src="/logo.png" alt="Logo" width={50} height={50} />
-                    <a href="#home">IGNITEX</a>
+                <Image src="/logo2.jpg" alt="Logo" width={50} height={50} />
+                    <a href="#home">MCE E-CELL</a>
                 </li>
                 <ul className='hidden md:flex flex-row items-center gap-4 ml-auto'>
                 <li className=''><a href="#about">About Us</a></li>
