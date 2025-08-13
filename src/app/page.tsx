@@ -28,6 +28,11 @@ export default function Home() {
         </a>
       </div>
 
+      <div className="m-2 p-2 bg-amber-600 rounded-lg text-white text-center flex flex-col text-2xl font-bold shadow-md">
+        TEMPLATE AVAILABLE NOW
+        <a href="/PC-2025 Template.pptx" className="text-base hover:underline cursor-pointer ml-auto">Download now!</a>
+      </div>
+
       <div className="flex md:flex-row md:justify-end flex-col p-4 rounded-lg items-center shadow-md gap-2 bg-white">
         <Image
           src="/logo2.jpg"
